@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ведущий — QuizRoom</title><link rel="stylesheet" href="/css/style.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script></head>
+<body><main class="container"><div class="topbar"><div class="logo">Quiz<span>Room</span></div><a class="btn secondary" href="/">На главную</a></div>
+<section id="setup" class="card"><h1>Панель ведущего</h1><p class="subtitle">Выбери квиз и создай комнату.</p><label for="quiz">Квиз</label><select id="quiz"></select><div id="setupError" class="error hidden"></div><button id="createRoom" class="btn" style="margin-top:14px">Создать комнату</button></section>
+<section id="room" class="hidden"><div class="host-grid">
+<div class="card"><div class="badge">PIN комнаты</div><div id="pin" class="pin"></div><div id="qr" class="qr"></div><p class="subtitle" id="link"></p><div class="actions"><button id="start" class="btn success">▶ Старт</button><button id="finish" class="btn danger">■ Завершить</button></div><div id="roomError" class="error hidden"></div></div>
+<div class="card"><h2>Игроки <span id="playerCount"></span></h2><div id="players" class="players"></div><div class="leaderboard" style="margin-top:30px"><h2>🏆 Лидерборд</h2><table><thead><tr><th>#</th><th>Игрок</th><th>Очки</th><th>Ответов</th></tr></thead><tbody id="leaderboard"></tbody></table></div></div>
+</div><section id="podiumCard" class="card hidden" style="margin-top:24px"><h2>🏆 Пьедестал</h2><div id="podium" class="podium"></div></section></section>
+</main><script src="/js/api.js"></script><script src="/js/host.js"></script></body></html>

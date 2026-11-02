@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1,
+    "title": "Основы Python",
+    "description": "Переменные, типы, условия и циклы",
+    "questions": [
+      {
+        "text": "Что выведет print(2 ** 3)?",
+        "options": [
+          "6",
+          "8",
+          "9",
+          "23"
+        ],
+        "correct": 1
+      },
+      {
+        "text": "Какой тип данных хранит целое число?",
+        "options": [
+          "str",
+          "int",
+          "list",
+          "bool"
+        ],
+        "correct": 1
+      },
+      {
+        "text": "Как обозначается условие в Python?",
+        "options": [
+          "if",
+          "when",
+          "case",
+          "check"
+        ],
+        "correct": 0
+      },
+      {
+        "text": "Какой символ используется для комментария?",
+        "options": [
+          "//",
+          "#",
+          "<!--",
+          "--"
+        ],
+        "correct": 1
+      },
+      {
+        "text": "Что делает len()?",
+        "options": [
+          "Удаляет объект",
+          "Считает длину",
+          "Создаёт список",
+          "Сортирует"
+        ],
+        "correct": 1
+      },
+      {
+        "text": "Как создать список?",
+        "options": [
+          "{}",
+          "()",
+          "[]",
+          "<>"
+        ],
+        "correct": 2
+      },
+      {
+        "text": "Какой оператор означает «равно» в сравнении?",
+        "options": [
+          "=",
+          "==",
+          "===",
+          "!="
+        ],
+        "correct": 1
+      },
+      {
+        "text": "Какой цикл перебирает элементы последовательности?",
+        "options": [
+          "for",
+          "if",
+          "try",
+          "def"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Основы HTML",
+    "description": "Структура веб-страницы и теги",
+    "questions": [
+      {
+        "text": "Какой тег задаёт заголовок первого уровня?",
+        "options": [
+          "<p>",
+          "<h1>",
+          "<title>",
+          "<head>"
+        ],
+        "correct": 1
+      },
+      {
+        "text": "Какой тег создаёт ссылку?",
+        "options": [
+          "<a>",
+          "<link>",
+          "<url>",
+          "<href>"
+        ],
+        "correct": 0
+      },
+      {
+        "text": "Какой тег вставляет изображение?",
+        "options": [
+          "<pic>",
+          "<image>",
+          "<img>",
+          "<src>"
+        ],
+        "correct": 2
+      },
+      {
+        "text": "Какой тег создаёт абзац?",
+        "options": [
+          "<p>",
+          "<text>",
+          "<br>",
+          "<para>"
+        ],
+        "correct": 0
+      },
+      {
+        "text": "Где находится видимое содержимое страницы?",
+        "options": [
+          "<body>",
+          "<meta>",
+          "<head>",
+          "<style>"
+        ],
+        "correct": 0
+      },
+      {
+        "text": "Какой тег используется для маркированного списка?",
+        "options": [
+          "<ol>",
+          "<ul>",
+          "<li>",
+          "<list>"
+        ],
+        "correct": 1
+      },
+      {
+        "text": "Какой атрибут задаёт адрес ссылки?",
+        "options": [
+          "src",
+          "href",
+          "link",
+          "url"
+        ],
+        "correct": 1
+      },
+      {
+        "text": "Какой тег переносит строку?",
+        "options": [
+          "<hr>",
+          "<br>",
+          "<line>",
+          "<p>"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Основы CSS",
+    "description": "Стили, цвета, размеры и расположение",
+    "questions": [
+      {
+        "text": "Что означает CSS?",
+        "options": [
+          "Computer Style Sheets",
+          "Cascading Style Sheets",
+          "Creative Style System",
+          "Colorful Style Syntax"
+        ],
+        "correct": 1
+      },
+      {
+        "text": "Как изменить цвет текста?",
+        "options": [
+          "text-color",
+          "font-color",
+          "color",
+          "foreground"
+        ],
+        "correct": 2
+      },
+      {
+        "text": "Как задать внешний отступ?",
+        "options": [
+          "padding",
+          "margin",
+          "border",
+          "gap-only"
+        ],
+        "correct": 1
+      },
+      {
+        "text": "Как задать внутренний отступ?",
+        "options": [
+          "margin",
+          "padding",
+          "inside",
+          "space"
+        ],
+        "correct": 1
+      },
+      {
+        "text": "Как сделать элемент flex-контейнером?",
+        "options": [
+          "display: flex",
+          "flex: on",
+          "position: flex",
+          "layout: flex"
+        ],
+        "correct": 0
+      },
+      {
+        "text": "Какой селектор выбирает класс?",
+        "options": [
+          "#menu",
+          ".menu",
+          "menu",
+          "*menu"
+        ],
+        "correct": 1
+      },
+      {
+        "text": "Какой селектор выбирает id?",
+        "options": [
+          ".menu",
+          "#menu",
+          "@menu",
+          "menu#"
+        ],
+        "correct": 1
+      },
+      {
+        "text": "Как подключить внешний CSS-файл?",
+        "options": [
+          "<css>",
+          "<style src>",
+          "<link rel=\"stylesheet\">",
+          "<script css>"
+        ],
+        "correct": 2
+      }
+    ]
+  }
+]

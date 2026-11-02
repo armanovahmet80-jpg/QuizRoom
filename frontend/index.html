@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>QuizRoom</title><link rel="stylesheet" href="/css/style.css"></head>
+<body><main class="center"><section class="card narrow">
+<div class="logo">Quiz<span>Room</span></div>
+<h1>Играй вместе.<br>Побеждай.</h1>
+<p class="subtitle">Введи PIN комнаты, чтобы присоединиться к живому квизу.</p>
+<form id="joinForm"><label for="pin">PIN комнаты</label><input id="pin" inputmode="numeric" maxlength="6" pattern="[0-9]{6}" placeholder="482913" required>
+<button class="btn" style="width:100%;margin-top:14px">Войти в игру</button></form>
+<div id="error" class="error hidden"></div>
+<div class="actions"><a class="btn secondary" href="/host.html">Я ведущий</a><a class="btn secondary" href="/create.html">Создать квиз</a></div>
+</section></main><script src="/js/api.js"></script><script>
+const form=document.getElementById("joinForm"), pin=document.getElementById("pin");
+pin.value=new URLSearchParams(location.search).get("pin")||"";
+form.addEventListener("submit",async e=>{e.preventDefault();const p=pin.value.trim();if(!/^\\d{6}$/.test(p)){showError(error,"PIN должен состоять из 6 цифр");return}
+try{await api("/api/rooms/"+p);location.href="/join.html?pin="+p}catch(err){showError(error,err.message)}});
+</script></body></html>
