@@ -23,5 +23,10 @@
         }
       }
     }
+  },
+  "644780": {
+    "quiz_id": 1,
+    "status": "waiting",
+    "players": {}
   }
 }
